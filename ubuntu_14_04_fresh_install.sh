@@ -34,19 +34,19 @@ clone_plugins()
 		git clone https://github.com/thepixellab/flatland.git
 	fi
 
-	if [ -!ed ~/.config/sublime-text-3/Packages/flatland ]; then
+	if [ -!ed ~/.config/sublime-text-3/Packages/sublime_alignment ]; then
 		git clone https://github.com/wbond/sublime_alignment.git
 	fi
 
-	if [ -!ed ~/.config/sublime-text-3/Packages/flatland ]; then
+	if [ -!ed ~/.config/sublime-text-3/Packages/gitgutter ]; then
 		git clone https://github.com/jisaacks/gitgutter.git
 	fi
 	
-	if [ -!ed ~/.config/sublime-text-3/Packages/flatland ]; then
+	if [ -!ed ~/.config/sublime-text-3/Packages/sublime-text-git ]; then
 		git clone https://github.com/kemayo/sublime-text-git.git
 	fi
 
-	if [ -!ed ~/.config/sublime-text-3/Packages/flatland ]; then
+	if [ -!ed ~/.config/sublime-text-3/Packages/HexViewer ]; then
 		git clone https://github.com/facelessuser/HexViewer.git
 	fi
 }
